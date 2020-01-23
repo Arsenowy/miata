@@ -1,0 +1,73 @@
+body {
+  background-color: ;
+  margin: 0;
+}
+main > header h1 {
+}
+.tlo {
+  height: 100vh;
+  position: fixed;
+}
+p {
+  margin: 0 25%;
+}
+
+.mid {
+  margin: 0 auto;
+  position: relative;
+  top: 100vh;
+  background-color: black;
+  display: block;
+  color:white;
+  padding: 50px;
+}
+.text {
+  color: white;
+  z-index: 5;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 8vw;
+
+  letter-spacing: 0.5vw;
+  /*border-bottom: 1px solid rgba(255, 255, 255, 0.603); */
+}
+
+.comment {
+  color: white;
+  z-index: 5;
+  position: absolute;
+  top: 52%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  font-family: 'Yellowtail', cursive;
+  opacity: 0.8;
+  font-size: 3vw;
+  border-top: 5px solid white;
+  border-radius: 5px;
+
+}
+.gradient1{
+  width:  100%;
+  height: 100px;
+  background-image: linear-gradient(black, transparent);
+  position: fixed;
+  top:0;
+}
+
+.gradient2{
+  width: 100%;
+  height: 150px;
+  background-image: linear-gradient(transparent, black);
+  position: absolute;
+  bottom: 0vh;
+}
+
+/*
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Yellowtail', cursive;
