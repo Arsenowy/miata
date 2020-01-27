@@ -32,6 +32,13 @@ main > article h3 {
   color:white;
   padding: 50px;
 }
+.background-miata {
+  position: absolute;
+  z-index: 0;
+  width: 90vw;
+  opacity: 0.2;
+  margin-left: 100px;
+}
 
 .text {
   color: white;
@@ -97,6 +104,8 @@ main > article h3 {
   margin-right: auto;
   max-width: 60%;
   font-size: 9vw;
+  z-index: 1;
+  position: relative;
 
 }
 .box{
